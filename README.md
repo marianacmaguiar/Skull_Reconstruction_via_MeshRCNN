@@ -1,4 +1,4 @@
-<h1ZA Mesh-based Approach Towards the Automatization of 3D Cranial Implants Generation</h1>
+<h1>A Mesh-based Approach Towards the Automatization of 3D Cranial Implants Generation</h1>
 
 Mariana Aguiar, Victor Alves, Jan Egger, Jianning Li, Christina Gsaxner
 Centro Algoritmi, University of Minho, Braga, Portugal
