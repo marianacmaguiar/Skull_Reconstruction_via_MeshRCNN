@@ -39,6 +39,6 @@ The training and testing configurations of the DL networks of the system combine
   
 <h4>Working Framework</h4>
 <p>The methods implemented in this dissertation to build a 3D system able to perform cranial reconstruction involved working with different libraries and frameworks.The below figure illustrates an overview of the computational resources and for what stage of the development each tool was applied.</p>
-<p align="center"> <a href="https://drive.google.com/uc?export=view&id=1wRp8CxqhYF5rv8YxPMnIbR6pr1of0ilr"><img src="https://drive.google.com/uc?export=view&id=1wRp8CxqhYF5rv8YxPMnIbR6pr1of0ilr" style="width: 500px; max-width: 100%; height: auto" title="Click to enlarge picture" /></p>
+<p align="center"> <a href="https://drive.google.com/uc?export=view&id=1wRp8CxqhYF5rv8YxPMnIbR6pr1of0ilr"><img src="https://drive.google.com/uc?export=view&id=1wRp8CxqhYF5rv8YxPMnIbR6pr1of0ilr" style="width: 550px; max-width: 100%; height: auto" title="Click to enlarge picture" /></p>
 
  
