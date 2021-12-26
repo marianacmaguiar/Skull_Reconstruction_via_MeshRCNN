@@ -30,7 +30,6 @@ The training and testing configurations of the DL networks of the system combine
   <h4> Data Loader </h4>
   <p>After registering the skull dataset in Detectron2’s DatasetCatalog and configuring the training and testing parameters of the network, it’s time to load the data from the annotations to be fed into the network. Since the network needs to consume the actual meshes, images, masks, and bboxes and not their paths, the Detectron2 framework offers a class called DatasetMapper that not only loads the data but also allows the user to perform data augmentation.</p>
   <p>The DatasetMapper maps each of the element from the previously registered annotations and loads the data into memory, apply some transformations to the data and transforms their corresponding annotations to maintain their alignment, and then converts the annotations into an Instances object, the Detectron2 ground truth structure object of the framework.</p>
-<a href="https://drive.google.com/uc?export=view&id=1O-AKzBlsCRSdTxLC8miCiBSRr6CQFpdX"><img align="center" src="https://drive.google.com/uc?export=view&id=1O-AKzBlsCRSdTxLC8miCiBSRr6CQFpdX" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
   
 
 <h4> 3D Skull Reconstruction via Mesh-RCNN </h4>
