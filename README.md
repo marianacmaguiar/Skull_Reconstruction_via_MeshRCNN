@@ -1,7 +1,7 @@
 <h1>A Mesh-based Approach Towards the Automatization of 3D Cranial Implants Generation</h1>
 
 <h4>Mariana Aguiar, Victor Alves - Centro Algoritmi, University of Minho, Braga, Portugal , Jan Egger, Jianning Li, Christina Gsaxner - Institute of Computer Graphics and Vision, Graz University of Technology, Graz, Austria</h4>
-<p>Victor Alves <br>
+<br>
 >This project is the result of Mariana Aguiar (marianacmaguiar@gmail.com), Victor Alves (valves@di.uminho.pt), Jan Egger (egger@icg.tugraz.at) work, having been developed as part of Mariana Aguiar's master thesis in Biomedical Engineering, Medical Informatics Branch . 
 
 <br>
@@ -38,7 +38,7 @@ The training and testing configurations of the DL networks of the system combine
  <p align="center"> <a href="https://drive.google.com/uc?export=view&id=15Ai3baR183PQOrjBU20veauydC40NRWP"><img src="https://drive.google.com/uc?export=view&id=15Ai3baR183PQOrjBU20veauydC40NRWP" style="width: 700px; max-width: 100%; height: auto" title="Click to enlarge picture" /></p>
   
 <h4>Working Framework</h4>
-<p>The methods implemented in this dissertation to build a 3D system able to perform cranial reconstruction involved working with different libraries and frameworks.The below figure illustrates an overview of the computational resources and for what stage of the development each tool was applied.</p>
+<p>The methods implemented in this thesis to build a 3D system able to perform cranial reconstruction involved working with different libraries and frameworks.The below figure illustrates an overview of the computational resources and for what stage of the development each tool was applied.</p>
 <p align="center"> <a href="https://drive.google.com/uc?export=view&id=1wRp8CxqhYF5rv8YxPMnIbR6pr1of0ilr"><img src="https://drive.google.com/uc?export=view&id=1wRp8CxqhYF5rv8YxPMnIbR6pr1of0ilr" style="width: 600px; max-width: 100%; height: auto" title="Click to enlarge picture" /></p>
 
  
