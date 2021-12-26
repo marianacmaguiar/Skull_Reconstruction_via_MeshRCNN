@@ -14,3 +14,13 @@ Jan Egger, Jianning Li and Christina Gsaxner - Institute of Computer Graphics an
 <p>Due to the growing interest and success of the application of Deep Learning to 3D reconstruction, recently several works have been proposed on the application of these architectures to cranial reconstruction, allowing to obtain high-quality cranial implants automatically, not only reducing the cost of the process but also enabling its availability in a larger number of clinical contexts. </p>
 <p>The work proposed in this thesis focused on the possibility of applying 3D Deep Learning to skull reconstruction where a 2D-3D system was implemented whose goal was to generate a mesh-shaped skull implant from its 2D image of the skull with the skull ready for 3D printing defect. The system includes several interconnected neural networks that enable 2D perception of the skull shape and its 3D reconstruction. </p>
   
+<br>
+
+<h2> Materials and Methods</h2>
+<p>
+<h4> Data Preparation </h4>
+<p></p>
+<h4> Data Registration, Training Configurations and Data Loader </h4>
+<p></p>
+<h4> 3D Skull Reconstruction via Mesh-RCNN </h4>
+<p></p>
