@@ -1,10 +1,8 @@
 <h1>A Mesh-based Approach Towards the Automatization of 3D Cranial Implants Generation</h1>
 
-<h4>Mariana Aguiar, Victor Alves, Jan Egger, Jianning Li, Christina Gsaxner</h4>
-<p>Victor Alves - Centro Algoritmi, University of Minho, Braga, Portugal <br>
-Jan Egger, Jianning Li and Christina Gsaxner - Institute of Computer Graphics and Vision, Graz University of Technology, Graz, Austria</p> <br>
-
->This project is the result of Mariana Aguiar (marianacmaguiar@gmail.com), Victor Alves (valves@di.uminho.pt), Jan Egger (egger@icg.tugraz.at) work, having been developed as part of Mariana Aguiar's master thesis. 
+<h4>Mariana Aguiar, Victor Alves - Centro Algoritmi, University of Minho, Braga, Portugal , Jan Egger, Jianning Li, Christina Gsaxner - Institute of Computer Graphics and Vision, Graz University of Technology, Graz, Austria</h4>
+<p>Victor Alves <br>
+>This project is the result of Mariana Aguiar (marianacmaguiar@gmail.com), Victor Alves (valves@di.uminho.pt), Jan Egger (egger@icg.tugraz.at) work, having been developed as part of Mariana Aguiar's master thesis in Biomedical Engineering, Medical Informatics Branch . 
 
 <br>
 
@@ -38,3 +36,8 @@ The training and testing configurations of the DL networks of the system combine
 <p>The proposed system integrates different neural networks with different aims divided into two main stages: a voxel stage followed by a mesh refinement stage. First, the voxel stage inputs the 2D skull image into a backbone feature extractor network CNN that outputs a feature map for the given image. Then these feature maps are inputted in a Region Proposal Network (RPN) to generate multiple ROIs where the output is classified as either having or not the object. Then an RoI Align layer is applied to extract a small feature map from each RoI, pixel-wise aligning the extracted features with the input image to preserve the spatial locations of each object. The resulting reduced feature maps serve as input for four parallel network branches: (i) a box detection branch, (ii) a mask branch, (iii) a Z depth extent branch, and (iv) a voxel branch. The first network predict a bbox and the label for each skull, the second a mask for each skull, the third network the depth extent of the skull object in the image, and the fourth network predicts a binary voxel grid for each skull. </p>
 <p>The output of the voxel branch is then fed into an algorithm, named Cubify, that replaces each occupied voxel with a cuboid triangle mesh, generating a coarse 3D skull mesh. Since the 3D mesh representing each skull based on its 2D image has a coarse shape, a mesh refinement stage is applied to convert the low-resolution mesh into a high-resolution mesh. This stage refines the vertex positions by inputting the 3D skull mesh three times through mesh refinement stages. Each mesh refinement stage is comprised of three operations: vert align that extracts the 2D skull image features for the mesh vertices, propagating the acquired information through a series of graph convolutions blocks, and then the vertex positions are updated by a vertex refinement operation. </p>
  <p align="center"> <a href="https://drive.google.com/uc?export=view&id=15Ai3baR183PQOrjBU20veauydC40NRWP"><img src="https://drive.google.com/uc?export=view&id=15Ai3baR183PQOrjBU20veauydC40NRWP" style="width: 700px; max-width: 100%; height: auto" title="Click to enlarge picture" /></p>
+  
+<h2>Working Framework</h2>
+<p align="center"> <a href="https://drive.google.com/uc?export=view&id=1wRp8CxqhYF5rv8YxPMnIbR6pr1of0ilr"><img src="https://drive.google.com/uc?export=view&id=1wRp8CxqhYF5rv8YxPMnIbR6pr1of0ilr" style="width: 600px; max-width: 100%; height: auto" title="Click to enlarge picture" /></p>
+
+ 
