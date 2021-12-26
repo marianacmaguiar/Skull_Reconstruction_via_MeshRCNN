@@ -1,7 +1,7 @@
-<h2>A Mesh-based Approach Towards the Automatization of 3D Cranial Implants Generation</h2>
+<h1>A Mesh-based Approach Towards the Automatization of 3D Cranial Implants Generation</h1>
 
-<p>Authors: Mariana Aguiar, Victor Alves, Jan Egger, Jianning Li, Christina Gsaxner<br><br>
-Victor Alves - Centro Algoritmi, University of Minho, Braga, Portugal <br>
+<h4>Mariana Aguiar, Victor Alves, Jan Egger, Jianning Li, Christina Gsaxner</h4><br><br>
+<p>Victor Alves - Centro Algoritmi, University of Minho, Braga, Portugal <br>
 Jan Egger, Jianning Li and Christina Gsaxner - Institute of Computer Graphics and Vision, Graz University of Technology, Graz, Austria</p> <br>
 
 >This project is the result of Mariana Aguiar (marianacmaguiar@gmail.com), Victor Alves (valves@di.uminho.pt), Jan Egger (egger@icg.tugraz.at) work, having been developed as part of Mariana Aguiar's master thesis. 
