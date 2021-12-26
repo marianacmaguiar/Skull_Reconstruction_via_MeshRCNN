@@ -20,7 +20,7 @@ Jan Egger, Jianning Li and Christina Gsaxner - Institute of Computer Graphics an
 
 <h4> Data Preparation </h4>
 <p>The dataset that Mesh R-CNN uses in their work is the Pix3D dataset containing a large number of aligned 2D images, and their correspondent 3D shapes. Since the proposed work deals with a medical image dataset of head CT scans, an adaptation of the data to generate a similar dataset to Pix3D had to be done, where the final adapted dataset contains pixel-wise aligned pairs of 2D skull images and their corresponding 3D shapes, along with their image masks, bboxes, voxelized skull and the camera parameters that allow producing a 3D model based on 2D images.</p>
-![This is an image](https://drive.google.com/file/d/1QPG9xbIWRUFv002nrSNeQwmkt7jYXXij)
+![image](https://drive.google.com/uc?export=view&id=1QPG9xbIWRUFv002nrSNeQwmkt7jYXXij)
 
 <h4> Data Registration, Training Configurations and Data Loader </h4>
 <p>Even though all the required data was previously acquired and prepared, a dataset registration was necessary for the data to be compatible with the Detectron2 framework. The chosen standard representation for the dataset was COCO format, a well-known format for instance detection. The format consists of a list of dictionaries, where each dictionary contains the paths to the data, camera parameters information and other information such as the format of the bounding boxes, the category label and how many objects exist in the image. </p>
