@@ -37,7 +37,8 @@ The training and testing configurations of the DL networks of the system combine
 <p>The output of the voxel branch is then fed into an algorithm, named Cubify, that replaces each occupied voxel with a cuboid triangle mesh, generating a coarse 3D skull mesh. Since the 3D mesh representing each skull based on its 2D image has a coarse shape, a mesh refinement stage is applied to convert the low-resolution mesh into a high-resolution mesh. This stage refines the vertex positions by inputting the 3D skull mesh three times through mesh refinement stages. Each mesh refinement stage is comprised of three operations: vert align that extracts the 2D skull image features for the mesh vertices, propagating the acquired information through a series of graph convolutions blocks, and then the vertex positions are updated by a vertex refinement operation. </p>
  <p align="center"> <a href="https://drive.google.com/uc?export=view&id=15Ai3baR183PQOrjBU20veauydC40NRWP"><img src="https://drive.google.com/uc?export=view&id=15Ai3baR183PQOrjBU20veauydC40NRWP" style="width: 700px; max-width: 100%; height: auto" title="Click to enlarge picture" /></p>
   
-<h2>Working Framework</h2>
+<h4>Working Framework</h4>
+<p>The methods implemented in this dissertation to build a 3D system able to perform cranial reconstruction involved working with different libraries and frameworks.The below figure illustrates an overview of the computational resources and for what stage of the development each tool was applied.</p>
 <p align="center"> <a href="https://drive.google.com/uc?export=view&id=1wRp8CxqhYF5rv8YxPMnIbR6pr1of0ilr"><img src="https://drive.google.com/uc?export=view&id=1wRp8CxqhYF5rv8YxPMnIbR6pr1of0ilr" style="width: 600px; max-width: 100%; height: auto" title="Click to enlarge picture" /></p>
 
  
